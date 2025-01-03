@@ -11,27 +11,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		51D691552D2809780025B96C /* TestingPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestingPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D691552D2809780025B96C /* NagizTestingPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NagizTestingPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D6916A2D28173F0025B96C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		51D6915A2D2809780025B96C /* Exceptions for "TestingPod" folder in "TestingPod" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				TestingPod.h,
-			);
-			target = 51D691542D2809780025B96C /* TestingPod */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		51D691572D2809780025B96C /* TestingPod */ = {
+		51D691572D2809780025B96C /* NagizTestingPod */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				51D6915A2D2809780025B96C /* Exceptions for "TestingPod" folder in "TestingPod" target */,
-			);
-			path = TestingPod;
+			path = NagizTestingPod;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -51,7 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				51D6916A2D28173F0025B96C /* LICENSE */,
-				51D691572D2809780025B96C /* TestingPod */,
+				51D691572D2809780025B96C /* NagizTestingPod */,
 				51D691562D2809780025B96C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +46,7 @@
 		51D691562D2809780025B96C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51D691552D2809780025B96C /* TestingPod.framework */,
+				51D691552D2809780025B96C /* NagizTestingPod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +64,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51D691542D2809780025B96C /* TestingPod */ = {
+		51D691542D2809780025B96C /* NagizTestingPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51D6915B2D2809780025B96C /* Build configuration list for PBXNativeTarget "TestingPod" */;
+			buildConfigurationList = 51D6915B2D2809780025B96C /* Build configuration list for PBXNativeTarget "NagizTestingPod" */;
 			buildPhases = (
 				51D691502D2809780025B96C /* Headers */,
 				51D691512D2809780025B96C /* Sources */,
@@ -91,13 +78,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				51D691572D2809780025B96C /* TestingPod */,
+				51D691572D2809780025B96C /* NagizTestingPod */,
 			);
-			name = TestingPod;
+			name = NagizTestingPod;
 			packageProductDependencies = (
 			);
 			productName = TestingPod;
-			productReference = 51D691552D2809780025B96C /* TestingPod.framework */;
+			productReference = 51D691552D2809780025B96C /* NagizTestingPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 51D6914F2D2809780025B96C /* Build configuration list for PBXProject "TestingPod" */;
+			buildConfigurationList = 51D6914F2D2809780025B96C /* Build configuration list for PBXProject "NagizTestingPod" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51D691542D2809780025B96C /* TestingPod */,
+				51D691542D2809780025B96C /* NagizTestingPod */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51D6914F2D2809780025B96C /* Build configuration list for PBXProject "TestingPod" */ = {
+		51D6914F2D2809780025B96C /* Build configuration list for PBXProject "NagizTestingPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51D6915E2D2809780025B96C /* Debug */,
@@ -370,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51D6915B2D2809780025B96C /* Build configuration list for PBXNativeTarget "TestingPod" */ = {
+		51D6915B2D2809780025B96C /* Build configuration list for PBXNativeTarget "NagizTestingPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51D6915C2D2809780025B96C /* Debug */,
